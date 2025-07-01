@@ -132,7 +132,7 @@ def run_job_mode(auto_follow=True, total_jobs=5, delay=6):
     banner()
     acc = get_linked_tiktok_id(auth)
     print(f"🔐 Mã Authorization: {auth}")
-    print(f"📱 TikTok ID đã liên kết: {acc}
+    print(f"📱 TikTok ID đã liên kết: {acc}\\n")
 ")
     print(f"⚙️ Đang chạy {total_jobs} job | Delay mỗi job: {delay} giây")
     print(f"{YELLOW}⛔ Nhấn Ctrl+C để dừng tool bất kỳ lúc nào...{RESET}
