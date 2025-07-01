@@ -160,7 +160,7 @@ def run_job_mode(auto_follow=True, total_jobs=5, delay=6):
             if auto_follow:
                 adb_auto_follow()
 
-           try:
+    try:
     res = confirm_job_done(job['job_id'], auth)
     if res['status'] == "success":
         money = res.get("money", 0)
